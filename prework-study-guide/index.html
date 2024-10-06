@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Prework Study Guide</title>
+    <title>Kevin's Prework Study Guide</title>
   </head>
   <body>
     <header id="top">
@@ -12,7 +12,86 @@
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
     </header>
     <main>
-      <!-- Student code goes here -->
+      <section class="card" id="html-section">
+        <h2>HTML</h2>
+        <ul>
+          <li>The head element contains information about the webpage.</li>
+          <li>The body element represents the visible content shown to the user.</li>
+          <li>The section element in HTML is a semantic element used to define sections in a webpage. It groups together content that shares a common theme or purpose. Each <section> typically contains related information or content, such as a chapter, part of an article, or a group of components that belong together.
+
+            Key Points:
+            Purpose: Organize and structure content into meaningful sections.
+            Usage: Commonly used in articles, documentation, or web pages where different sections of content are distinct but part of a larger whole.
+            Semantic Value: Improves accessibility and search engine optimization (SEO) by making the page's structure clearer to screen readers and search engines.
+            Typical Usage:
+            Sections in a blog post
+            Chapters in an online document
+            Divisions within a single-page application (SPA)</li>
+        </ul>
+
+      </section>
+   
+      <section class="card" id="css-section">
+        <h2>CSS</h2>
+        <ul>
+          <li><strong>Selectors:</strong> Define which HTML elements to style, like class, ID, or element selectors.</li>
+          <li><strong>Properties:</strong> Specify the aspect of the element to style, such as <code>color</code> or <code>font-size</code>.</li>
+          <li><strong>Values:</strong> Assigned to properties to describe how the style should be applied, such as <code>red</code> or <code>16px</code>.</li>
+          <li><strong>Inline Styles:</strong> Apply CSS directly to an HTML element using the <code>style</code> attribute.</li>
+          <li><strong>Internal Styles:</strong> Written within a <code>&lt;style&gt;</code> tag in the HTML document's <code>&lt;head&gt;</code> section.</li>
+          <li><strong>External Stylesheets:</strong> CSS is written in a separate file and linked to the HTML document.</li>
+          <li><strong>Color and Background:</strong> Use <code>color</code> to set text color and <code>background-color</code> for the background.</li>
+          <li><strong>Box Model:</strong> Defines how padding, borders, and margins affect the layout of elements.</li>
+          <li><strong>Margins and Padding:</strong> Control the space outside (margin) and inside (padding) the element's border.</li>
+          <li><strong>Borders:</strong> Define an element's boundaries with properties like <code>border-width</code>, <code>border-style</code>, and <code>border-color</code>.</li>
+          <li><strong>Text Styling:</strong> Use properties like <code>text-align</code> and <code>text-decoration</code> to style text content.</li>
+          <li><strong>Fonts and Typography:</strong> Control font families, sizes, weights, and line spacing using <code>font-family</code>, <code>font-size</code>, and <code>font-weight</code>.</li>
+          <li><strong>Width and Height:</strong> Set the size of elements using fixed (px) or relative (%) units.</li>
+          <li><strong>Display Property:</strong> Determines how an element is displayed, such as <code>block</code>, <code>inline</code>, or <code>none</code>.</li>
+          <li><strong>Positioning:</strong> Use <code>position</code> to move elements with values like <code>relative</code>, <code>absolute</code>, <code>fixed</code>, or <code>sticky</code>.</li>
+        </ul>
+
+   </section>
+   
+      <section class="card" id="git-section">
+        <h2>GIT</h2>
+        <ul>
+          <li><strong>Initialize a Repository:</strong> Use <code>git init</code> to create a new Git repository in your project directory.</li>
+          <li><strong>Check Status:</strong> Use <code>git status</code> to see changes and the state of your working directory and staging area.</li>
+          <li><strong>Add Files:</strong> Use <code>git add filename</code> to add a file to the staging area, or <code>git add .</code> to add all modified files.</li>
+          <li><strong>Commit Changes:</strong> Use <code>git commit -m "message"</code> to commit the changes you've staged, with a descriptive message.</li>
+          <li><strong>View History:</strong> Use <code>git log</code> to view the commit history of your repository.</li>
+          <li><strong>Create a Branch:</strong> Use <code>git branch branch-name</code> to create a new branch, and <code>git checkout branch-name</code> to switch to that branch.</li>
+          <li><strong>Merge Branches:</strong> Switch to the main branch and use <code>git merge branch-name</code> to merge another branch into it.</li>
+          <li><strong>Clone a Repository:</strong> Use <code>git clone repository-url</code> to make a copy of an existing repository from a remote server.</li>
+          <li><strong>Pull Changes:</strong> Use <code>git pull</code> to fetch and merge changes from the remote repository into your local branch.</li>
+          <li><strong>Push Changes:</strong> Use <code>git push</code> to upload your local changes to the remote repository.</li>
+          <li><strong>Stash Changes:</strong> Use <code>git stash</code> to temporarily save changes that you’re not ready to commit yet.</li>
+          <li><strong>Delete a Branch:</strong> Use <code>git branch -d branch-name</code> to delete a branch after it has been merged.</li>
+        </ul>
+       </section>
+   
+      <section class="card" id="javascript-section">
+        <h2>JavaScript</h2>
+        <ul>
+          <li><strong>Variables:</strong> Declare variables using <code>var</code>, <code>let</code>, or <code>const</code>. Use <code>let</code> for block-scoped variables and <code>const</code> for constants.</li>
+    <li><strong>Data Types:</strong> JavaScript supports various types like <code>number</code>, <code>string</code>, <code>boolean</code>, <code>object</code>, and <code>undefined</code>.</li>
+    <li><strong>Functions:</strong> Define functions using <code>function</code> keyword or as an arrow function <code>() => {}</code>. Functions can take parameters and return values.</li>
+    <li><strong>Arrays:</strong> Store multiple values in a single variable using <code>[]</code>. Common methods include <code>.push()</code>, <code>.pop()</code>, <code>.forEach()</code>, and <code>.map()</code>.</li>
+    <li><strong>Objects:</strong> Store key-value pairs in <code>{}</code>. Access properties using <code>object.property</code> or <code>object['property']</code>.</li>
+    <li><strong>Conditionals:</strong> Use <code>if</code>, <code>else if</code>, and <code>else</code> to control the flow based on conditions. For strict equality, use <code>===</code>.</li>
+    <li><strong>Loops:</strong> Use <code>for</code>, <code>while</code>, and <code>do...while</code> loops to repeat tasks. For iterating arrays, use <code>for...of</code>.</li>
+    <li><strong>Events:</strong> Handle user actions like clicks using <code>addEventListener()</code>. Example: <code>button.addEventListener('click', function() { ... })</code>.</li>
+    <li><strong>DOM Manipulation:</strong> Access and modify HTML elements using <code>document.querySelector()</code> or <code>document.getElementById()</code>.</li>
+    <li><strong>Promises:</strong> Handle asynchronous operations using <code>Promise</code>. Methods like <code>.then()</code> and <code>.catch()</code> are used to handle success and errors.</li>
+    <li><strong>Async/Await:</strong> A modern way to work with promises. Use <code>async</code> before a function and <code>await</code> to wait for a promise inside the function.</li>
+    <li><strong>JSON:</strong> JavaScript Object Notation is used to represent data. Use <code>JSON.parse()</code> to convert JSON strings into objects and <code>JSON.stringify()</code> to turn objects into JSON strings.</li>
+    <li><strong>Local Storage:</strong> Save data in the browser using <code>localStorage.setItem()</code> and retrieve it using <code>localStorage.getItem()</code>.</li>
+    <li><strong>Strict Mode:</strong> Use <code>"use strict";</code> at the top of your script to enforce stricter parsing and error handling in your JavaScript code.</li>
+        </ul>
+   
+      </section>
+       
     </main>
 
     <footer>
